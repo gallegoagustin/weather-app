@@ -1,0 +1,53 @@
+body {
+  color: #000;
+  font-family: lato;
+}
+
+body a:link, a:active, a:visited{
+  text-decoration: none;
+}
+
+body a:hover{
+  transform: scale(1.1);
+}
+
+.App {
+  text-align: center;
+  background-image: url('./assets/svg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#compContainer {
+  min-height: 90vh;
+}
+
+.link {
+  color: #ff6701;
+}
+
+.link:hover{
+  transform: scale(1.1);
+}
+
+p {
+  font-family: lato;
+}
+
+::placeholder {
+  color: #000;
+}
+
+.wIcon {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  
+}

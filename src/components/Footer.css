@@ -1,0 +1,29 @@
+#gContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1vw;
+}
+
+@media (max-width: 768px) {
+    #gContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footerContainer {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 1vw;
+    }
+}

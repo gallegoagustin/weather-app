@@ -1,0 +1,44 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.aboutCard {
+    width: auto;
+    background-color: rgb(252, 236, 221, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+  
+#aboutHr {
+    width: 75%;
+}
+
+.aboutTitle {
+    margin-top: 0.5em;
+}
+
+.link {
+    color: #ff6701;
+}
+  
+.link:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .aboutContainer{
+        margin-top: 25vw;
+        display: flex;
+    }
+
+    .aboutCard{
+        width: 80%;
+    }
+
+}

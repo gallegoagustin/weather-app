@@ -1,0 +1,21 @@
+#searchBox {
+    margin-right: 4px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    border-radius: 5px;
+    color: #000;
+    height: 1.5rem;
+}
+
+#searchButton {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    color: #000;
+    height: 1.9rem;
+    width: 5rem;
+}
