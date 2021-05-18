@@ -6,4 +6,4 @@ You will be able to look for weather information about any city in the world and
 
 You can also try the mobile version!
 
-weather-app-one-gamma.vercel.app
+https://weather-app-one-gamma.vercel.app
